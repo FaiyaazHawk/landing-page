@@ -4,7 +4,9 @@ html {
     flex-direction: column;
     height: 100vh;
     font-family: roboto, sans-serif;
+    
 }
+
 
 a {
     color: #F9FAF8;
@@ -18,23 +20,27 @@ img {
 .icon {
     font-size: 24px;
     color: #F9FAF8;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 .header-links {
     display: flex;
     gap: 10px;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .hero-container {
     display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
 }
 
 .left-hero {
@@ -42,7 +48,30 @@ img {
     flex-direction: column;
     width: 500px;
 }
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    width: 125px;
+    padding: 10px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: #3882F6;
+    
+}
+
 .right-hero {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
