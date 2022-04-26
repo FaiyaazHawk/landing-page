@@ -1,4 +1,4 @@
-html {
+body {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -13,9 +13,7 @@ a {
     text-decoration: none;
 }
 
-img {
-    width: 300px;
-}
+
 
 .icon {
     font-size: 24px;
@@ -74,4 +72,46 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.catimg {
+    width:300px
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    width: auto;
+    margin: 5px;
+}
+
+.card-img {
+    
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
 }
