@@ -65,7 +65,7 @@ a {
     background-color: #3882F6;
     border-radius: 5px;
     border: #3882F6;
-    
+    margin-bottom: 5px;
 }
 
 .right-hero {
@@ -115,4 +115,26 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     width: 200px;
+}
+
+.gray-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    width: 400px;
+    height: 250px;
+    padding: 100px 100px 5px 100px;
+}
+
+.author {
+    font-weight: bold;
+    margin-left: 150px;
 }
